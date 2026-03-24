@@ -5,8 +5,8 @@ Standalone copy of the yearn.fi landing page for design experimentation.
 ## Quick Start
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 Opens at http://localhost:3000
