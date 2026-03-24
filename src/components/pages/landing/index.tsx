@@ -1,0 +1,28 @@
+import type { ReactElement } from 'react'
+import { FAQs, Footer, Hero, Integrations, Security, Vaults } from './components/sections'
+
+function Index(): ReactElement {
+  return (
+    <div
+      data-theme={'midnight'}
+      className={
+        'dark bg-gradient-to-b from-[#00051f] to-[#0a1243] text-white'
+      }
+    >
+      <main className={'flex w-full flex-col items-center'}>
+        <div className={'flex w-full flex-col items-center'}>
+          <Hero />
+          <Vaults />
+          <Security />
+          <Integrations />
+          <FAQs />
+        </div>
+      </main>
+      <footer className={'flex w-full flex-col items-center'}>
+        <Footer />
+      </footer>
+    </div>
+  )
+}
+
+export default Index
